@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+   
+    
+}
+
+h2 {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+header{
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    border-radius: 20px;
+    font-size: medium;
+}
+h2 {
+border-bottom: 3px solid black;
+}
+hr {
+    
+    margin-right: 60px;
+    border-color: black;
+}
+
+input {
+    padding-left: 20px;
+}
+
+.js-cancel-button {
+border-radius: 20px;
+font-size: medium;
+}
+.js-reset {
+    font-size: medium;
+    margin-right: 50px;
+}
+footer {
+    text-align: end;
+}
+.group {
+    display: flex ;
+    flex-direction: column;
+}
+
+.item {
+    padding: 20px;
+}
+
+
+.section {
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+   
+}
+@media all and (min-width: 800px) {
+    .group {
+        flex-direction: row
+    }
+}
